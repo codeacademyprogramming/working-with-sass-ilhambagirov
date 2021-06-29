@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.topimg {
+  max-width: 1600px;
+  min-width: 500px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto; }
+  .topimg img {
+    width: 100%;
+    height: auto; }
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 60px;
+  background-color: white;
+  outline: gray;
+  box-shadow: 2px 3px 3px 2px #bbb8b8;
+  padding-left: 10px;
+  padding-right: 10px; }
+  header .flex-container {
+    width: inherit;
+    display: flex;
+    height: inherit;
+    justify-content: space-between;
+    align-items: center; }
+    header .flex-container p {
+      padding: 8px 16px;
+      font-size: 20px; }
+      header .flex-container p:hover {
+        background-color: #c2c1c1; }
+    header .flex-container li {
+      list-style-type: none;
+      padding: 8px 16px; }
+      header .flex-container li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px; }
+      header .flex-container li:hover {
+        background-color: #c2c1c1; }
+    header .flex-container .ul-container {
+      height: inherit;
+      display: flex;
+      align-items: center; }
+
+.about {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important; }
+  .about .parent-container {
+    width: 100%; }
+    .about .parent-container .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0.01em 16px; }
+      .about .parent-container .container .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        .about .parent-container .container .row .about-img {
+          max-width: 100%; }
+        .about .parent-container .container .row .about6 {
+          padding: 10px; }
+          .about .parent-container .container .row .about6 .head-flex-about {
+            display: flex;
+            flex-direction: column;
+            align-items: center; }
+            .about .parent-container .container .row .about6 .head-flex-about p {
+              margin: 20px 0; }
+            .about .parent-container .container .row .about6 .head-flex-about .secondp-a {
+              font-size: 20px;
+              letter-spacing: 5px; }
+            .about .parent-container .container .row .about6 .head-flex-about p b {
+              font-size: 32px;
+              letter-spacing: 5px; }
+          .about .parent-container .container .row .about6 .firsttext-a {
+            font-size: 22px;
+            padding: 10px;
+            font-family: "Times New Roman", Georgia, Serif;
+            line-height: 1.5;
+            overflow-wrap: break-word; }
+          .about .parent-container .container .row .about6 .opacitytext-a {
+            opacity: 0.7;
+            line-height: 1.5;
+            padding: 10px; }
+
+.menu {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important; }
+  .menu .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.01em 16px; }
+    .menu .container .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      .menu .container .row .menu-img {
+        width: 100%; }
+      .menu .container .row .head-flex-menu {
+        display: flex;
+        justify-content: center; }
+        .menu .container .row .head-flex-menu .headmenu {
+          font-size: 32px;
+          letter-spacing: 5px; }
+      .menu .container .row .menuinfo p {
+        margin: 15px 0;
+        font-size: 25px; }
+      .menu .container .row .menuinfo .opacitymenu {
+        opacity: 0.7;
+        font-size: 18px;
+        margin-bottom: 63px; }
+      .menu .container .row .menupadd {
+        padding: 10px; }
+
+.contact {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important; }
+  .contact .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.01em 16px; }
+  .contact .head-contact {
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin-bottom: 50px; }
+  .contact .address {
+    margin-top: 30px;
+    font-weight: bolder;
+    color: blue;
+    margin-bottom: 30px; }
+  .contact .formcontact input {
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    height: 50px; }
+  .contact .contactbtn {
+    padding: 20px;
+    padding: 8px 16px;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+    border: none;
+    background-color: #ddd7d7; }
+
+.footer {
+  text-align: center;
+  padding: 32px;
+  background-color: #eeeeee; }
+
+.footer p {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.footer p a {
+  color: black; }
+
+@media screen and (max-width: 600px) {
+  .ul-container {
+    display: none !important; }
+  .aboutst {
+    display: none; } }
+
+@media screen and (min-width: 600px) {
+  .col-xl-1 {
+    width: calc(100% / 12* 1); }
+  .col-xl-2 {
+    width: calc(100% / 12* 2); }
+  .col-xl-3 {
+    width: calc(100% / 12* 3); }
+  .col-xl-4 {
+    width: calc(100% / 12* 4); }
+  .col-xl-5 {
+    width: calc(100% / 12* 5); }
+  .col-xl-6 {
+    width: calc(100% / 12* 6); }
+  .col-xl-7 {
+    width: calc(100% / 12* 7); }
+  .col-xl-8 {
+    width: calc(100% / 12* 8); }
+  .col-xl-9 {
+    width: calc(100% / 12* 9); }
+  .col-xl-10 {
+    width: calc(100% / 12* 10); }
+  .col-xl-11 {
+    width: calc(100% / 12* 11); }
+  .col-xl-12 {
+    width: calc(100% / 12* 12); } }
+
+@media screen and (max-width: 600px) {
+  .col-sm-1 {
+    width: calc(100% / 12* 1); }
+  .col-sm-2 {
+    width: calc(100% / 12* 2); }
+  .col-sm-3 {
+    width: calc(100% / 12* 3); }
+  .col-sm-4 {
+    width: calc(100% / 12* 4); }
+  .col-sm-5 {
+    width: calc(100% / 12* 5); }
+  .col-sm-6 {
+    width: calc(100% / 12* 6); }
+  .col-sm-7 {
+    width: calc(100% / 12* 7); }
+  .col-sm-8 {
+    width: calc(100% / 12* 8); }
+  .col-sm-9 {
+    width: calc(100% / 12* 9); }
+  .col-sm-10 {
+    width: calc(100% / 12* 10); }
+  .col-sm-11 {
+    width: calc(100% / 12* 11); }
+  .col-sm-12 {
+    width: calc(100% / 12* 12); } }
+
+@media screen and (max-width: 1000px) {
+  .col-md-1 {
+    width: calc(100% / 12* 1); }
+  .col-md-2 {
+    width: calc(100% / 12* 2); }
+  .col-md-3 {
+    width: calc(100% / 12* 3); }
+  .col-md-4 {
+    width: calc(100% / 12* 4); }
+  .col-md-5 {
+    width: calc(100% / 12* 5); }
+  .col-md-6 {
+    width: calc(100% / 12* 6); }
+  .col-md-7 {
+    width: calc(100% / 12* 7); }
+  .col-md-8 {
+    width: calc(100% / 12* 8); }
+  .col-md-9 {
+    width: calc(100% / 12* 9); }
+  .col-md-10 {
+    width: calc(100% / 12* 10); }
+  .col-md-11 {
+    width: calc(100% / 12* 11); }
+  .col-md-12 {
+    width: calc(100% / 12* 12); } }

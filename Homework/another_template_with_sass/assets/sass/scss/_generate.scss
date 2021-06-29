@@ -1,0 +1,39 @@
+$breakpoints: xl, sm,md;
+
+@each $bps in $breakpoints {
+    @if $bps==sm {
+        @media screen and(max-width:600px) {
+            @for $i from 1 through 12{
+                .col-#{$bps}-#{$i}{
+                    width: calc(100% / 12* #{$i});
+                }
+                
+            }
+        }
+        
+    }
+
+    @if $bps==xl {
+        @media screen and(min-width:600px) {
+            @for $i from 1 through 12{
+                .col-#{$bps}-#{$i}{
+                    width: calc(100% / 12* #{$i});
+                }
+                
+            }
+        }
+        
+    }
+
+    @if $bps==md {
+        @media screen and(max-width:1000px) {
+            @for $i from 1 through 12{
+                .col-#{$bps}-#{$i}{
+                    width: calc(100% / 12* #{$i});
+                }
+                
+            }
+        }
+        
+    }
+}
