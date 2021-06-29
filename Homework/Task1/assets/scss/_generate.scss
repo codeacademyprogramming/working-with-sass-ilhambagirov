@@ -1,0 +1,63 @@
+$breakpoints: sm, md, lg ,xl;
+
+@each $bps in $breakpoints {
+
+    @if $bps==xl {
+        @media screen  and (min-width: 1200px){
+             @for $i from 1 to 13 {
+        .col-#{$bps}-#{$i}{
+            width: calc(100% / 12* #{$i});
+            background-color: blue;
+            height: 100px;
+        }
+        }
+       
+     }
+    }
+
+    @if $bps==lg {
+        @media screen  and (min-width: 900px) and (max-width: 1200px) {
+             @for $i from 1 to 13 {
+        .col-#{$bps}-#{$i}{
+            width: calc(100% / 12* #{$i});
+            background-color: gray;
+            height: 100px;
+        }
+        }
+       
+     }
+    }
+
+    @if $bps==md {
+        @media screen  and (min-width: 650px) and (max-width:900px) {
+             @for $i from 1 to 13 {
+        .col-#{$bps}-#{$i}{
+            width: calc(100% / 12* #{$i});
+            background-color: green;
+            height: 100px;
+        }
+        }
+       
+     }
+    }
+
+    @if $bps==sm {
+        @media screen  and (min-width: 320px) and (max-width:650px){
+             @for $i from 1 to 13 {
+        .col-#{$bps}-#{$i}{
+            width: calc(100% / 12* #{$i});
+            background-color: yellow;
+            height: 100px;
+        }
+        }
+       
+     }
+    }
+
+    
+
+   
+
+    
+    
+}

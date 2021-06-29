@@ -1,0 +1,472 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// body{
+//     position: relative;
+
+//     header{
+//         position: sticky;
+//         top: 0;
+//     }
+
+//     .flex-h-container{
+//      display: flex;
+//      width: 100%;
+//      height: 50px;
+//      background-color: black;
+//      justify-content: space-between;
+
+//      .ul-container{
+//         display: flex;
+//         list-style-type: none;
+//         align-items: center;
+
+//          a{
+//             font-size: 16px;
+//             padding: 17px 20px 17px 20px;
+//             color: white;
+//             text-decoration: none;
+//             font-family: "Lato", sans-serif;
+            
+//             &:hover{
+//                 background-color: white;
+//                 color: black;
+//             }
+//         }
+
+//        }
+
+       
+
+
+//     }
+// }.linksvg-search{
+//     padding: 13px 20px 13px 20px;
+            
+
+//          &:hover{
+//             background-color: red;
+//          }
+//          }
+// .search-flex{
+//     display: flex;
+//     align-items: center;
+//     }
+// .sm-ul-nav{
+//     display: none;
+// }
+// .search{
+//   fill: white;
+// }
+
+header{
+    position: sticky;
+    top: 0;
+}
+body{
+    position: relative;
+}
+
+.flex-h-container{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.ul-container{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.ul-container a{
+    font-size: 16px;
+    padding: 17px 20px 17px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+
+.ul-container a:hover{
+
+    background-color: white;
+    color: black;
+}
+.search-flex{
+    display: flex;
+    align-items: center;
+}
+.search{
+   fill: white;
+}
+#popup-nav-sm1{
+     position: fixed;
+     left: -405px;
+    }
+
+ .menuwrapper{
+     display: none;
+    }
+.checkbox-svg{
+    display: none;
+}
+.linksvg-search{
+    padding: 13px 20px 13px 20px;
+ }
+ 
+ .linksvg-search:hover{
+     background-color: red;
+ }
+
+ .sm-ul-nav{
+     display: none;
+ }
+
+
+.main{
+    width: 100%;
+}
+
+.slide{
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0.01em 16px
+}
+
+.bs-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    width: inherit;
+    text-align: justify;
+}
+.bs-p .fchild{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.bs-p p{
+    color: black;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.bs-p .text{
+    width: inherit;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.band{
+    text-align: center !important;
+}
+.row .bandimg{
+    width: 60%;
+    border-radius: 4px;
+
+}
+
+.band p{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.tour-section{
+    background-color: black;
+    color: white;
+}
+
+.tour-section p{
+    color: white;
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin-bottom: 25px;
+}
+
+.tour-section .tour{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.cities-ul li{
+    background-color: white;
+    color: black;
+    padding:10px 20px;
+    border-bottom: 1px solid #ddd
+
+}
+.cities-ul li .sold{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    margin-left: 16px;
+
+}
+.cities-ul li .num{
+   
+    float: right;
+    margin-right: 16px;
+    border-radius: 45%;
+    background-color: black;
+    color: white;
+
+}
+.cities-ul li .num2{
+   
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+
+}
+.tourcols{
+    padding: 0 8px;
+    border-radius: 0;
+}
+.tourpicinfo {
+    margin-top: -4px;
+    padding: 0.01em 16px;
+}
+.tourpicinfo p{
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+.tourpicinfowhite{
+    background-color: white;
+    color: black;
+}
+.opacitydateofconcert{
+    opacity: 0.7;
+}
+
+.tourpicinfo p{
+    color: black;
+}
+
+.ticketbtn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.contact-section .contact{
+    font-size: 30px;
+}
+.contact-section .note{
+    opacity: 0.7;
+}
+
+.contact li{
+   list-style-type: none;
+}
+
+.contact span{
+    font-size: 20px;
+    
+}
+.contacthalf{
+    width: 100%;
+}
+.contact-3-3row{
+    margin-bottom: -31px;
+    
+}
+.contact-3-3row input{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+.con{
+    padding: 0 8px 0 0;
+}
+.contact-3-3row .lastin{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.con-btn{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.contact-section{
+    padding-bottom: 40px;
+}
+
+.rowsix-half{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -16px 8px -16px;
+    margin-top: -33px;
+    padding: 0 8px;
+}
+
+.map{
+    width: 100%;
+    object-fit: contain;
+}
+
+.foot-center li{
+    display: inline-block;
+    padding: 5px;
+}
+.footer-container{
+    padding: 64px  0;
+}
+
+.foot-center{
+    text-align: center;
+    
+}
+.right{
+    float: right !important;
+}
+
+@media screen  and (max-width:700px) {
+
+   
+    .ul-container{
+        list-style-type: none;
+        align-items: center;
+        display: none;
+    }
+    
+    .search-flex{
+        display:none;
+    }
+    
+    .sm-ul-nav{
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .sm-ul-nav a{
+        font-size: 16px;
+        padding: 17px 20px 17px 20px;
+        color: white;
+        text-decoration: none;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .sm-ul-nav a:hover{
+    
+        background-color: white;
+        color: black;
+    }
+    
+    .menuwrapper{
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .menu-svg{
+        fill: white;
+    }
+    
+    .linkmenu-svg{
+        padding: 13px 20px 13px 20px;
+    }
+    
+    .linkmenu-svg:hover{
+        background-color: white;
+    }
+    
+    .linkmenu-svg:hover .menu-svg{
+        fill: black;
+    }
+    
+    /* .checkbox-svg{
+        display: block;
+        position: relative;
+        left: 225px;
+        top: 17px;
+        visibility: hidden;
+    }
+    
+    .checkbox-svg:checked ~ .popup-nav-sm{
+        display: block;
+    
+    } */
+    #popup-nav-sm1:target{
+        left: 0;
+        top: 50px;
+        width: 100%;
+        background-color: black;
+    }
+    
+    #popup-nav-sm1:target li{
+        list-style-type: none;
+        padding-bottom: 20px;
+    }
+    
+    #popup-nav-sm1:target a{
+        text-decoration: none;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        
+    }
+
+    .band{
+        text-align: center;
+    }
+    .band img{
+        text-align: center;
+        padding-bottom: 20px;
+        width: 343px;
+        height: 343px;
+    }
+
+    .row .tourcols{
+        margin-bottom: 10px;
+
+    }
+
+    .con{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .contact-3-3row .lastin{
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+}
